@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/EcApp",
+    "packages/ui",
+    "packages/layout"
+  ]
+}
