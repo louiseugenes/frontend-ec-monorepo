@@ -1,8 +1,32 @@
 {
+  "name": "monorepo_test_ecglobal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "private": true,
   "workspaces": [
-    "apps/EcApp",
-    "packages/ui",
-    "packages/layout"
-  ]
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-runtime": "^7.24.7",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.7",
+    "@types/styled-components": "^5.1.34",
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "babel-loader": "^9.1.3",
+    "esbuild-plugin-flow": "^0.3.2",
+    "metro-react-native-babel-preset": "^0.77.0",
+    "react-native-web": "^0.19.12",
+    "react-responsive": "^10.0.0",
+    "react-router-dom": "^6.26.1",
+    "styled-components": "^6.1.12",
+    "vite-plugin-flow": "^0.2.1",
+    "vite-plugin-svgr": "^4.2.0"
+  }
 }
