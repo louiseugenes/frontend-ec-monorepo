@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { TextAnimation } from 'ui-ecapp';
+import { useState } from 'react';
 
 const HeaderContainer = styled.header`
   padding: 10px;
@@ -11,17 +13,20 @@ const HeaderContainer = styled.header`
 
   h1 {
     margin: 0;
-    font-size: 2.5rem;
   }
 `;
 
 const Header: React.FC = () => {
+  const [animating, setAnimating] = useState(true);
+
   return (
     <HeaderContainer>
       <h1>
-        <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
-          EcApp
-        </Link>
+      <TextAnimation animating={animating}>
+          <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
+            EcApp
+          </Link>
+      </TextAnimation>
       </h1>
     </HeaderContainer>
   );

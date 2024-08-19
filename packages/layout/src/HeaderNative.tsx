@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { TextAnimation } from 'ui-ecapp';
+import { useState } from 'react';
+
 
 const HeaderContainer = styled.div`
   display: flex;
@@ -11,16 +14,19 @@ const HeaderContainer = styled.div`
 `;
 
 const HeaderText = styled.h1`
-  font-size: 2.5rem;
   color: white;
 `;
 
 const Header: React.FC = () => {
+  const [animating, setAnimating] = useState(true);
+  
   return (
     <HeaderContainer>
-      <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
-        <HeaderText>EcApp</HeaderText>
-      </Link>
+      <TextAnimation animating={animating}>
+          <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
+            EcApp
+          </Link>
+      </TextAnimation>
     </HeaderContainer>
   );
 };

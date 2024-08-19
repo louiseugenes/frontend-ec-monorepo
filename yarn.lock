@@ -6307,8 +6307,8 @@ __metadata:
 
 "layout-ecapp@file:../../packages/layout::locator=ec-app%40workspace%3Aapps%2Fec-app":
   version: 1.0.0
-  resolution: "layout-ecapp@file:../../packages/layout#../../packages/layout::hash=03b95b&locator=ec-app%40workspace%3Aapps%2Fec-app"
-  checksum: efff8a396560598e9e566364bf6c8ac5dd944264bb383fb838a2c54fe5222a8921670f1868a9b7070f3e57fb1b5d04e0917decd6f4237f320d0ecd393e14bc41
+  resolution: "layout-ecapp@file:../../packages/layout#../../packages/layout::hash=ef3e0a&locator=ec-app%40workspace%3Aapps%2Fec-app"
+  checksum: 775fd389b837c1bc6f0ba1fe2867353df75fc19dc47919c08408f7aede59cf5c3e4552a40fa40f9ff89cbf55d9985369fb921fa8767b2d8558c093389835b923
   languageName: node
   linkType: hard
 
@@ -8973,8 +8973,8 @@ __metadata:
 
 "ui-ecapp@file:../../packages/ui::locator=ec-app%40workspace%3Aapps%2Fec-app":
   version: 1.0.0
-  resolution: "ui-ecapp@file:../../packages/ui#../../packages/ui::hash=dcf5fc&locator=ec-app%40workspace%3Aapps%2Fec-app"
-  checksum: 735a4e8f14a191023d58d87bf0d52b2f72d43ffc4c4b531958608a3c97e06413f3cb75a31d66a91abe22089d5cc456d43a82d78c46f821ae800368c4288aa04b
+  resolution: "ui-ecapp@file:../../packages/ui#../../packages/ui::hash=988f57&locator=ec-app%40workspace%3Aapps%2Fec-app"
+  checksum: 3d541de1ed1596592019ca92b932be73a0f299c17e2870c8dd398b0638017f0fa3d505b62e1d092d53a445622867bbad67296de26ccd2bbe6ac775c79bd25da0
   languageName: node
   linkType: hard
 

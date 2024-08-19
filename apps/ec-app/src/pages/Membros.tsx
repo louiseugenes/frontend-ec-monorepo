@@ -3,6 +3,7 @@ import { Card, CardContent, Typography, Grid, Container } from '@mui/material';
 import styled from 'styled-components';
 import axios from 'axios';
 import { Loader } from 'ui-ecapp';
+import { TextAnimation } from 'ui-ecapp';
 
 const SearchInput = styled.input`
   width: 100%;
@@ -25,7 +26,7 @@ const SearchInput = styled.input`
   }
 `;
 
-const FixedSizeCard = styled(Card)`
+const FixedSizeCard = styled.div`
   width: 200px;
   height: 150px;
   display: flex;
@@ -33,7 +34,13 @@ const FixedSizeCard = styled(Card)`
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 10px; /* Margem fixa entre os cartões */
+  margin: 10px;
+  background-color: gray;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-wight: bold;
 `;
 
 const CenteredContainerLoader = styled.div`
@@ -51,6 +58,7 @@ const Membros: React.FC = () => {
   const [search, setSearch] = useState<string>('');
   const [members, setMembers] = useState<any[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
+  const [animating, setAnimating] = useState(true);
 
   useEffect(() => {
     const fetchMembers = async () => {
@@ -84,7 +92,10 @@ const Membros: React.FC = () => {
   
 return (
   <Container>
-    <Title id="Member-title">Membros</Title>
+    <TextAnimation animating={animating}>
+        Membros
+    </TextAnimation>
+    {!animating && <Title id="Member-title">Membros</Title>}
     {loading ? (
       <CenteredContainerLoader>
         <Loader loading={loading} />
