@@ -24,7 +24,6 @@ const NavLink = styled(Link)`
 
 const Container = styled.div`
   display: flex;
-  height: 100%;
   width: 100%;
 `;
 

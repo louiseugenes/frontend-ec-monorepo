@@ -6,14 +6,23 @@
 
 html, body {
   height: 100%;
-  background-color: #333;
   width: 100%;
+  background-color: #333;
+  
 }
 
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
+
+/* body nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
 
 @media (max-width: 768px) {
   .header, .bottom-navigation {

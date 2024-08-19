@@ -90,7 +90,7 @@ const Postagens: React.FC = () => {
             <Grid item key={index}>
               <MainCard>
                 <CardContent>
-                  <Typography variant="h6">Usuário: {post.member.username}</Typography>
+                  <Typography variant="h6">@{post.member.username}</Typography>
                   <Typography variant="body2">Mensagem:</Typography>
                   <MessageCard>
                     <Typography variant="body2">{post.message}</Typography>

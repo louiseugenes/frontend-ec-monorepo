@@ -6307,8 +6307,8 @@ __metadata:
 
 "layout-ecapp@file:../../packages/layout::locator=ec-app%40workspace%3Aapps%2Fec-app":
   version: 1.0.0
-  resolution: "layout-ecapp@file:../../packages/layout#../../packages/layout::hash=ef3e0a&locator=ec-app%40workspace%3Aapps%2Fec-app"
-  checksum: 775fd389b837c1bc6f0ba1fe2867353df75fc19dc47919c08408f7aede59cf5c3e4552a40fa40f9ff89cbf55d9985369fb921fa8767b2d8558c093389835b923
+  resolution: "layout-ecapp@file:../../packages/layout#../../packages/layout::hash=63be4a&locator=ec-app%40workspace%3Aapps%2Fec-app"
+  checksum: ca304d4b85304b62a88ceb1bec19b187d149948bc6fc6400d25e3cf5bf1325a471e4d160f01ee97b5bdfb5f06454f3589ff665af15e8ea98f37435631acf13d9
   languageName: node
   linkType: hard
 
