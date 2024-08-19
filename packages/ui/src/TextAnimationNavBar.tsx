@@ -17,13 +17,16 @@ const animate = keyframes`
 `;
 
 const AnimateBlink = styled.h2`
-  position: relative;
   font-size: 3em;
   color: #e0e374;
   text-transform: uppercase;
   width: 100%;
-  text-align: center;
   -webkit-box-reflect: below -42px linear-gradient(transparent, #0004);
+  margin: auto;
+  font-weight: bold;
+  margin-right: 0;
+  padding: 0px;
+
 
   span {
     animation: ${animate} 5s linear infinite;
