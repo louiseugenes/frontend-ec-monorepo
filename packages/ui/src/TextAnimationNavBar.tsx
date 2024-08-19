@@ -26,7 +26,9 @@ const AnimateBlink = styled.h2`
   font-weight: bold;
   margin-right: 0;
   padding: 0px;
-
+  margin-left: 20px;
+  justify-content: center;
+  align-items: left;
 
   span {
     animation: ${animate} 5s linear infinite;

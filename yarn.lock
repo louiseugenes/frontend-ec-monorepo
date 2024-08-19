@@ -8973,8 +8973,8 @@ __metadata:
 
 "ui-ecapp@file:../../packages/ui::locator=ec-app%40workspace%3Aapps%2Fec-app":
   version: 1.0.0
-  resolution: "ui-ecapp@file:../../packages/ui#../../packages/ui::hash=781453&locator=ec-app%40workspace%3Aapps%2Fec-app"
-  checksum: c0b8665b6808e231f9bd2a72cdb85096cb8cbec142fcdf88c33b37d9de1196cf2847d2ce42a7cde4b9ba6dcd4826bd3f7054d28035e832fb09ac542facea193b
+  resolution: "ui-ecapp@file:../../packages/ui#../../packages/ui::hash=56b00c&locator=ec-app%40workspace%3Aapps%2Fec-app"
+  checksum: fb240994f013a14a9a332a15e0b206cf6dbd6423957e32a722ebf5b7c4072f1bebb916f157ccde5691d2772a9a343bf9fd2665c7c56f9186a9a6a9f02ab70efa
   languageName: node
   linkType: hard
 
