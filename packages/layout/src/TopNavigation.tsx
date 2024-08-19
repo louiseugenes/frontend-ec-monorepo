@@ -32,7 +32,7 @@ const TopNavigation: React.FC = () => {
   return (
     <Nav>
       <NavLink to="/postagens">Postagens</NavLink>
-      <NavLink to="/membros">Membros</NavLink>
+      <NavLink to="/">Membros</NavLink>
     </Nav>
   );
 };

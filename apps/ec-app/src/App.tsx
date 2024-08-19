@@ -43,9 +43,9 @@ const App: React.FC = () => {
       {isMobile ? <FixedBottomNavigation /> : <FixedTopNavigation />}
       <Container>
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/postagens" element={<Postagens />} />
-          <Route path="/membros" element={<Membros />} />
+          <Route path="/" element={<Membros />} />
         </Routes>
       </Container>
     </Router>
