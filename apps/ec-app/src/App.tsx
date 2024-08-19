@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Header } from 'layout-ecpapp';
-import { HeaderNative } from 'layout-ecpapp';
+import { Header } from 'layout-ecapp';
+import { HeaderNative } from 'layout-ecapp';
 import { Button } from 'ui-ecapp';
-import { TopNavigation } from 'layout-ecpapp';
-import { BottomNavigation } from 'layout-ecpapp';
+import { TopNavigation } from 'layout-ecapp';
+import { BottomNavigation } from 'layout-ecapp';
 import Postagens from './pages/Postagens';
 import Membros from './pages/Membros';
 import Home from './pages/Home';
